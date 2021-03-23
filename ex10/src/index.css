@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+#nav_bar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#nav_bar li {
+  margin: 10px;
+}
+li {
+  list-style-type: none;
+}
+#sign_in {
+  background-color: blue;
+}
+#signin {
+  color: white;
+}
+.main {
+  flex: 1;
+}
+footer {
+  display: inline;
+  background-color: rgb(218, 208, 208);
+}
+#footer-left {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#footer-right {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
